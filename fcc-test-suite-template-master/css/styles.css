@@ -1,12 +1,35 @@
-#nav-bar {
-  height: 100%; 
-  width: 0; 
-  position: fixed; 
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+#navbar {
+  height: 100%;
+  width: 10%;
+  position: fixed;
   z-index: 1;
-  top: 0; 
+  top: 0;
   left: 0;
-  background-color: #111; 
-  overflow-x: hidden; 
-  padding-top: 60px; 
-  transition: 0.5s; 
+  background-color: rgb(143, 140, 140);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+#navbar .nav-link {
+  text-decoration: none;
+  margin: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+#main-doc {
+  text-align: center;
+  justify-content: center;
+}
+
+.main-section {
+  padding: 30px;
+  height: 60vh;
 }
