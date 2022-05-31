@@ -23,6 +23,12 @@ nav {
   padding: 10px;
   text-align: center;
 }
+@media screen and (max-width:550px){
+  nav {    
+    width: 5%;
+    padding: 10;
+  }
+}
 
 #main-doc {
   text-align: center;
@@ -33,3 +39,4 @@ nav {
   padding: 30px;
   height: 60vh;
 }
+ 
